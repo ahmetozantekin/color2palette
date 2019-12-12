@@ -1,0 +1,28 @@
+{
+  "name": "color2palette",
+  "version": "1.0.0",
+  "description": "create palette from a single color",
+  "main": "color2palette.scss",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ahmetozantekin/color2palette.git"
+  },
+  "keywords": [
+    "color",
+    "palette",
+    "color",
+    "scss",
+    "colors",
+    "scss",
+    "palette"
+  ],
+  "author": "Ahmet Ozan Tekin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ahmetozantekin/color2palette/issues"
+  },
+  "homepage": "https://github.com/ahmetozantekin/color2palette#readme"
+}

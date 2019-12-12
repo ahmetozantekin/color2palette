@@ -1,0 +1,23 @@
+/// Create a palette from a single color
+///
+/// @param {number} $color
+///   The base color as Hex, RGBA, RGA.
+///
+/// @param {string} $classNamePrefix
+///   The iterated class name that the format in class-(i) 
+///
+/// @param {number} $iteration
+///   The iteration size
+///
+
+@mixin color2palette($colorHex, $classNamePrefix: "step", $iteration :5, $perc : 5% ) {
+  @for $i from 1 to ($iteration+1) {
+    #{$classNamePrefix}-#{$i}  {
+      background-color: lightenCalculator($colorHex, $i, $perc);
+    }
+  }
+}
+
+@function lightenCalculator($colorHex, $iteration , $percentage) {
+   @return lighten($colorHex, $iteration * $percentage);
+}
