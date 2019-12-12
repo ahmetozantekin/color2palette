@@ -29,7 +29,7 @@ ul
 ```
 
 #### Example
-[Live in CodePen!](https://codepen.io/ahmetozantekin/pen/eYmzzrQ)
+[Live on CodePen!](https://codepen.io/ahmetozantekin/pen/eYmzzrQ)
 
 
 ## License
