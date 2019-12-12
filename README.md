@@ -28,6 +28,10 @@ ul
 @include color2palette(#dc2142, "step", 9);
 ```
 
+#### Example
+[Live in CodePen!](https://codepen.io/ahmetozantekin/pen/eYmzzrQ)
+
+
 ## License
 
 MIT ©
