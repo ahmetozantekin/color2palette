@@ -1,6 +1,7 @@
 # color2palette
 
 > sass extension for creating a palette from a single color
+
 [![NPM](https://img.shields.io/npm/v/color2palette.svg)](https://www.npmjs.com/package/color2palette)
 
 ## Install
